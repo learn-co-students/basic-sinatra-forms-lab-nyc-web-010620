@@ -5,8 +5,16 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+   <ul> 
+   <%# things on a list are not strings, so we do not need interpolation %>
+      <li>Team Name: <%= @name %></li>
+      <li>Coach: <%= @coach %></li> 
+      <li>Point Guard: <%= @pg %></li> 
+      <li>Shooting Guard: <%= @sg %></li> 
+      <li>Small Forward: <%= @sf %></li> 
+      <li>Power Forward: <%= @pf %></li> 
+      <li>Center: <%= @c %></li> 
+   </ul>
 
  </body>
 </html>
